@@ -1,0 +1,13 @@
+@import "./reset.css";
+@font-face {
+  font-family: NanumBarunGothic;
+  src: url("../assets/fonts/nanum-barun-gothic/NanumBarunGothic.otf");
+}
+
+header {
+  width: 1100px;
+  height: 91px;
+  color: #4444;
+  font-size: 15px;
+  display: flex;
+}
