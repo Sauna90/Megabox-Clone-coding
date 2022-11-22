@@ -1,7 +1,7 @@
-@import './reset.css';
+@import "./reset.css";
 @font-face {
   font-family: NanumBarunGothic;
-  src: url('../assets/fonts/nanum-barun-gothic/NanumBarunGothic.otf');
+  src: url("../assets/fonts/nanum-barun-gothic/NanumBarunGothic.otf");
 }
 
 header {
@@ -9,12 +9,11 @@ header {
   height: 91px;
   color: #4444;
   font-size: 15px;
-}
-
-#loginform {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: darkgreen;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 #loginform > ul {
@@ -26,12 +25,14 @@ header {
 }
 
 #loginform-1st {
+  display: flex;
   position: absolute;
   top: 10px;
   left: 0;
 }
 
 #loginform-2st {
+  display: flex;
   position: absolute;
   top: 10px;
   right: 0;
@@ -43,4 +44,35 @@ header {
 
 #loginform-2st > li {
   margin-left: 20px;
+}
+
+header > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav li {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+header > nav > i {
+}
+
+#menu-1st {
+  display: flex;
+  position: absolute;
+  top: 42px;
+  left: 0;
+}
+
+#menu-2st {
+  display: flex;
+  position: absolute;
+  top: 42px;
+  right: 0;
 }
