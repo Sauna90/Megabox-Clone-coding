@@ -1,7 +1,7 @@
-@import "./reset.css";
+@import './reset.css';
 @font-face {
   font-family: NanumBarunGothic;
-  src: url("../assets/fonts/nanum-barun-gothic/NanumBarunGothic.otf");
+  src: url('../assets/fonts/nanum-barun-gothic/NanumBarunGothic.otf');
 }
 
 header {
@@ -53,6 +53,9 @@ header > img {
   transform: translate(-50%, -50%);
 }
 
+nav {
+}
+
 nav li {
   font-size: 15px;
   display: flex;
@@ -60,19 +63,24 @@ nav li {
   color: white;
 }
 
-header > nav > i {
+nav > div {
+  display: flex;
+  position: absolute;
+  top: 42px;
 }
 
 #menu-1st {
   display: flex;
-  position: absolute;
-  top: 42px;
-  left: 0;
 }
 
 #menu-2st {
   display: flex;
-  position: absolute;
-  top: 42px;
+}
+
+nav > div:nth-of-type(2) {
   right: 0;
+}
+
+nav > div > div {
+  position: absolute;
 }
