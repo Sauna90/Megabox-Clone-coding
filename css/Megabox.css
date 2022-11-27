@@ -53,9 +53,6 @@ header > img {
   transform: translate(-50%, -50%);
 }
 
-nav {
-}
-
 nav li {
   font-size: 18px;
   display: flex;
